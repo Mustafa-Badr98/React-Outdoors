@@ -1,0 +1,21 @@
+.row--animation {
+  animation-duration: 1.5s ;
+  animation-name: moveFromBottom;
+  
+  //  transform: scale(2);
+}
+
+@keyframes moveFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  80% {
+    transform: translateX(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
